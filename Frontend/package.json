@@ -1,0 +1,11 @@
+{
+  "name": "shopeasy",
+  "version": "1.0.0",
+  "description": "shopeasy is ecommerce web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashutosh",
+  "license": "ISC"
+}
