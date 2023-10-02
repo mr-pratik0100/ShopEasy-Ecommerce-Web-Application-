@@ -50,7 +50,6 @@ public class ProductController {
 			@RequestParam(required = false) Double gte, @RequestParam(required = false) Integer page
 
 	) throws ErrorHandler {
-		System.out.println("keyword " + keyword + " Category " + category);
 		
 		return productservice.getAllProduct(keyword, category, lt, lte, gt, gte, page);
 	}
